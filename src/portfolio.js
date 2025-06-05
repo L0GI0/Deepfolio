@@ -192,7 +192,7 @@ const workExperiences = {
     {
       role: "Software Developer in Test",
       company: "Nokia",
-      companylogo: require("./assets/images/nokia-logo.jpg"),
+      companylogo: require("./assets/images/nokia-logo.webp"),
       date: "October 2019 – September 2020",
       desc: "Developed a customizable dashboard for visualizing processed and aggregated 5G test data, enabling clear insights into network performance. Built a specialized tool for creating 5G technology diagrams and data flow visualizations, streamlining analysis and reporting for engineering teams"
     }
