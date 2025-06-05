@@ -1,0 +1,28 @@
+.experience-slider-wrapper {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 1rem;
+}
+
+.experience-slider {
+  display: flex;
+  gap: 1rem;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  padding: 1rem 0;
+}
+
+.experience-slide {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 80%;
+  }
+
+  @media (min-width: 1024px) {
+    width: 33%;
+  }
+}
