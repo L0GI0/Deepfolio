@@ -122,7 +122,7 @@ const educationInfo = {
     {
       schoolName: "AGH University of Science and Technology",
       logo: require("./assets/images/agh-logo.jpeg"),
-      subHeader: "Bachelor of Engineering in Applied Computer Science ",
+      subHeader: "Bachelor of Computer Science ",
       duration: "October 2018 - March 2021",
       desc: "Faculty of Applied Computer Science - Full Time Stationary Studies",
       descBullets: [
