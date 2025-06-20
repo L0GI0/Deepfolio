@@ -14,7 +14,7 @@ export default function Skills() {
   }
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
-      <div className="skills-main-div">
+      <div className="skills-main-div" >
         <Fade left duration={1000}>
           <div className="skills-image-div">
               <DisplayLottie animationData={codingPerson} />
