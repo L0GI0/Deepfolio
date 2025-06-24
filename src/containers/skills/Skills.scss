@@ -18,6 +18,9 @@
 .skills-image-div > img {
   max-width: 100%;
   height: auto;
+  display: flex;
+  align-items: center;
+  max-height: 612px;
 }
 
 .skills-heading {

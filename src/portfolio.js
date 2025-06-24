@@ -23,7 +23,7 @@ const greeting = {
   username: "Michal Pabjan",
   title: "Hi, I'm Michal",
   subTitle: emoji(
-    "Frontend Software Developer 🚀 experienced in TypeScript / JavaScript / Reactjs and NextJs and Microfrontends"
+    "Frontend Software Developer 🚀 experienced in TypeScript / JavaScript / Reactjs NextJs and Microfrontend Architecture"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -55,7 +55,7 @@ const skillsSection = {
       "⚡ Develop Frontend User Interfaces"
     ),
     emoji(
-      "⚡ Design Robust Frontend Systems And Architectures"
+      "⚡ Design Robust Frontend Systems in Various Architectures"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
@@ -146,7 +146,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend", //Insert stack or technology you have experience in
+      Stack: "Frontend UI/UX", //Insert stack or technology you have experience in
       progressPercentage: "99%" //Insert relative proficiency in percentage
     },
     {
