@@ -14,14 +14,14 @@ export default function Skills() {
   }
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
-      <div className="skills-main-div" >
-          <div className="skills-image-div">
+      <div className="skills-main-div">
+        <div className="skills-image-div">
           <img
-                alt="man designing"
-                src={require("../../assets/videos/coding.gif")}
-              />
-              {/* <DisplayLottie animationData={codingPerson} /> */}
-          </div>
+            alt="man designing"
+            src={require("../../assets/videos/coding.gif")}
+          />
+          {/* <DisplayLottie animationData={codingPerson} /> */}
+        </div>
         <Fade right duration={1000}>
           <div className="skills-text-div">
             <h1

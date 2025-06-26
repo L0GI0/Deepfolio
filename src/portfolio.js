@@ -51,19 +51,11 @@ const skillsSection = {
   title: "What I do",
   subTitle: "EXPERIENCED FRONTEND ENGINEER and DEVELOPER",
   skills: [
-    emoji(
-      "⚡ Develop Frontend User Interfaces"
-    ),
-    emoji(
-      "⚡ Design Robust Frontend Systems in Various Architectures"
-    ),
+    emoji("⚡ Develop Frontend User Interfaces"),
+    emoji("⚡ Design Robust Frontend Systems in Various Architectures"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡  Create Highly Interactive Resuable Components and UI Systems"
-    ),
-    emoji(
-      "⚡  Provide The Best Performance and match Tech Stack to your needs"
-    )
+    emoji("⚡  Create Highly Interactive Resuable Components and UI Systems"),
+    emoji("⚡  Provide The Best Performance and match Tech Stack to your needs")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -135,7 +127,9 @@ const educationInfo = {
       logo: require("./assets/images/zsp1-brzesko.png"),
       subHeader: "Secondary education",
       duration: "September 2014 - May 2018",
-      descBullets: ["General knowledge about IT - Strong Background in Frontend Technologies"]
+      descBullets: [
+        "General knowledge about IT - Strong Background in Frontend Technologies"
+      ]
     }
   ]
 };
@@ -172,8 +166,7 @@ const workExperiences = {
       companylogo: require("./assets/images/Footballco-logo-2.png"),
       date: "April 2024 – Present",
       desc: "Maintained and improved a core UI component library for a platform serving over 40 million users, enhanced the design system with the UI/UX team, and co-developed the highly monetized Betting Goal6 game. I contributed to key performance and SEO optimizations and delivered features used by millions, earning strong recognition.",
-      descBullets: [
-      ]
+      descBullets: []
     },
     {
       role: "Frontend Software Engineer",
@@ -228,7 +221,8 @@ const bigProjects = {
     {
       image: require("./assets/images/graphcommerce-logo.png"),
       projectName: "GraphCommerce",
-      projectDesc: "Framework for building headless ecommerce storefronts in React and Next.js. It provides a best-in-class example, including components and utilities, to deliver a high-performance, high-quality ecommerce Progressive Web App (PWA)",
+      projectDesc:
+        "Framework for building headless ecommerce storefronts in React and Next.js. It provides a best-in-class example, including components and utilities, to deliver a high-performance, high-quality ecommerce Progressive Web App (PWA)",
       footerLink: [
         {
           name: "Visit Website",
@@ -245,8 +239,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications",
+  subtitle: "Achievements, Certifications",
 
   achievementsCards: [
     {
@@ -268,9 +261,8 @@ const achievementSection = {
         "Won the Team of The Year 2022 award among other 200 company competitors.",
       image: require("./assets/images/team-of-the-year.png"),
       imageAlt: "Team of The Year Winner",
-      footerLink: [
-      ]
-    },
+      footerLink: []
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

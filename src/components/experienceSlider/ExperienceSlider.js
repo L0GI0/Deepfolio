@@ -2,7 +2,7 @@ import React from "react";
 import ExperienceCard from "../experienceCard/ExperienceCard";
 import "./ExperienceSlider.scss";
 
-export default function ExperienceSlider({ experiences, isDark }) {
+export default function ExperienceSlider({experiences, isDark}) {
   return (
     <div className="experience-slider-wrapper">
       <div className="experience-slider">
@@ -16,7 +16,7 @@ export default function ExperienceSlider({ experiences, isDark }) {
                 date: card.date,
                 companylogo: card.companylogo,
                 role: card.role,
-                descBullets: card.descBullets,
+                descBullets: card.descBullets
               }}
             />
           </div>
