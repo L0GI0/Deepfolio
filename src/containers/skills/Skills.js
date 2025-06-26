@@ -16,7 +16,7 @@ export default function Skills() {
         <div className="skills-image-div">
           <img
             alt="man designing"
-            src={require("../../assets/videos/coding.gif")}
+            src={require("../../assets/images/coding.png")}
           />
           {/* <DisplayLottie animationData={codingPerson} /> */}
         </div>

@@ -23,7 +23,7 @@ const greeting = {
   username: "Michal Pabjan",
   title: "Hi, I'm Michal",
   subTitle: emoji(
-    "Frontend Software Developer 🚀 experienced in TypeScript / JavaScript / Reactjs NextJs and Microfrontend Architecture"
+    "Frontend Software Developer 🚀 experienced in TypeScript / JavaScript / Reactjs / NextJs / VueJs and Microfrontend Architecture"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
